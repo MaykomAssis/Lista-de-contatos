@@ -67,3 +67,14 @@ flex-grow: 1;
 .list-item:hover{
     background-color: #e8e8e8;
 }
+
+.list-item__action {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    opacity: 0;
+}
+
+.list-item:hover .list-item__action {
+    opacity: 0.3;
+}
